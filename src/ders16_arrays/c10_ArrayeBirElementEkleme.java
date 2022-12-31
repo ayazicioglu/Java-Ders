@@ -1,0 +1,22 @@
+package ders16_arrays;
+
+public class c10_ArrayeBirElementEkleme {
+    public static void main(String[] args) { //bu soru tam olmadı, çıktı tutmuyor
+        //Verilen bir array’e istenen bir elemani ekleyip bize donduren bir method yazin,
+        // eski array’e yeni degeri atayin
+
+        String[] isimler={"Ali","Veli","Cem"};
+        String eklenecekIsim="Kemal";
+        isimler=arrayeElementEkleme(isimler,eklenecekIsim);
+        System.out.println(isimler);
+    }
+    public static String[] arrayeElementEkleme(String[] eklenilecekArray, String eklenecekElement){
+        String[] temp=new String[eklenilecekArray.length+1];
+        for (int i = 0; i < eklenilecekArray.length; i++) {
+            temp[i]=eklenilecekArray[i];
+
+        }
+        temp[temp.length-1]=eklenecekElement;
+        return temp;
+    }
+}
