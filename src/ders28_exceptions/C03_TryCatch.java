@@ -26,7 +26,7 @@ public class C03_TryCatch {
             String girilenDeger=scan.nextLine();
             if (girilenDeger.equalsIgnoreCase("q")){
                 System.out.println("Girilen "+sayiAdedi+" sayının toplami "+sayilarToplami);
-            break; //bunun hikmetini anlamak için bu break'ı sil çalıştır gör
+            break; //bunun hikmetini anlamak için bu break'ı sil çalıştır gör,gecersiz inputtan sonra da devam et
             }else System.out.println("geçersiz input");
         }
     }
