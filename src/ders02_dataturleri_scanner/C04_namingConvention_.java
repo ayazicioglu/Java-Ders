@@ -1,4 +1,4 @@
-package ders2_dataturleri_scanner;
+package ders02_dataturleri_scanner;
 
 public class C04_namingConvention_ {
     public static void main(String[] args) {

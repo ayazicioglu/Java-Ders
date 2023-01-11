@@ -1,4 +1,4 @@
-package ders2_dataturleri_scanner;
+package ders02_dataturleri_scanner;
 
 import java.util.Scanner;
 

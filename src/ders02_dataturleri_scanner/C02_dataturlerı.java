@@ -1,4 +1,4 @@
-package ders2_dataturleri_scanner;
+package ders02_dataturleri_scanner;
 
 public class C02_dataturlerı {
     public static void main(String[] args) {
