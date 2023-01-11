@@ -62,4 +62,38 @@ public class MapMethodDepo {
         //4-array'in 1.indeksindeki soyisme bakıp aranan soyisim ile aynı ise
         //isim, soyisim, sinif ve sube bilgilerini yazdırırız
     }
+
+    public static void subeListesiOlusturma(Map<Integer, String> ogrenciMap, String sinif, String sube) {
+        Collection<String> ValueCollection= ogrenciMap.values();
+        System.out.println("İsim Soyisim");
+
+        for (String eachValue:ValueCollection
+        ) {
+            String[] valueArr=eachValue.split("-");//3-value'yi -'lerden split yapıp bir array elde ederiz.
+                      if (valueArr[2].equalsIgnoreCase(sinif) && (valueArr[3].equalsIgnoreCase(sube))){
+                System.out.println(valueArr[0]+" "+valueArr[1]); //4-array'in 1.indeksindeki soyisme bakıp aranan soyisim ile aynı ise
+                          //isim, soyisim, sinif ve sube bilgilerini yazdırırız
+            }
+        }
+
+
+    }
+
+    public static Map<Integer,String> numaraileSubeDegistirme(Map<Integer, String> ogrenciMap, int numara, String sube) {
+    //1-okul numrasını bildigimiz için direkt ögenci value'ye ulaşabiliriz
+
+    String ogrenciValue=ogrenciMap.get(numara);  // 104nolu ögreenci icin Ayse-Can-10-H-MF
+    String[] valueArr=ogrenciValue.split("-");// [Ayse, Can, 10, H, MF]
+        //2- sube ismini guncelleyelimm
+        valueArr[3]=sube;// [Ayse, Can, 10, M, MF]
+        //3-arraydeki guncel bilgileri yeniden value formatında bir String yaparız
+        String yeniValue=valueArr[0]+"-"+valueArr[1]+"-"+valueArr[2]+"-"+valueArr[3]+"-"+valueArr[4];
+
+        //4-ogrenci no yani key ile yeni value'yi map'e ekleyelim
+        ogrenciMap.put(numara,yeniValue);
+
+        return ogrenciMap;
+
+    }
 }
+
