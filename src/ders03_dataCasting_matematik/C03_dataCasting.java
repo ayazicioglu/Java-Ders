@@ -1,4 +1,4 @@
-package ders3_dataCasting_matematik;
+package ders03_dataCasting_matematik;
 
 import java.util.Scanner;
 

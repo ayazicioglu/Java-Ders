@@ -1,4 +1,4 @@
-package ders3_dataCasting_matematik;
+package ders03_dataCasting_matematik;
 
 public class C05_wrapperClass {
     public static void main(String[] args) {
