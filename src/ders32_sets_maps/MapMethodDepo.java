@@ -1,4 +1,4 @@
-package ders32;
+package ders32_sets_maps;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -39,5 +39,27 @@ public class MapMethodDepo {
         //6-eğer for-each bittiğinde true olmadıysa false döndürelim
         return false;
 
+    }
+
+    public static void soyisimIleOgrenciListesiYazdirma(Map<Integer, String> ogrenciMap, String soyisim) {
+        //1-soyisimleri kontrol etmek istiyorsak value'lere ulaşmalıyız. Bunun için value'leri
+        //  collection olarak kaydederiz.
+        Collection<String> ogrenciValueCollection= ogrenciMap.values();
+
+        //listenin ilk satırı olarak başlıkları yazdıralım:
+        System.out.println("İsim Soyisim Sinif Sube");
+
+        //2-her bir value'yi for-each ile ele alırız.
+        for (String eachValue:ogrenciValueCollection
+             ) {
+            String[] valueArr=eachValue.split("-");
+            String valueSoyisim=valueArr[1];
+            if (valueSoyisim.equalsIgnoreCase(soyisim)){
+                System.out.println(valueArr[0]+" "+valueArr[1]+" "+valueArr[2]+" "+valueArr[3]);
+            }
+        }
+        //3-value'yi -'lerden split yapıp bir array elde ederiz.
+        //4-array'in 1.indeksindeki soyisme bakıp aranan soyisim ile aynı ise
+        //isim, soyisim, sinif ve sube bilgilerini yazdırırız
     }
 }

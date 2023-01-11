@@ -1,4 +1,4 @@
-package ders32;
+package ders32_sets_maps;
 
 import java.util.HashSet;
 import java.util.Random;

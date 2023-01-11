@@ -1,6 +1,5 @@
-package ders32;
+package ders32_sets_maps;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class C06_Value {
