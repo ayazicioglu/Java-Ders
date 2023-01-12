@@ -1,4 +1,4 @@
-package ders7_ternary_switchstatements;
+package ders07_ternary_switchstatement;
 
 import java.util.Scanner;
 

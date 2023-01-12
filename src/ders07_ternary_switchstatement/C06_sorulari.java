@@ -1,4 +1,4 @@
-package ders7_ternary_switchstatements;
+package ders07_ternary_switchstatement;
 
 public class C06_sorulari {
     public static void main(String[] args) {

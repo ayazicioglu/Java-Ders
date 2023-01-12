@@ -1,4 +1,4 @@
-package ders7_ternary_switchstatements;
+package ders07_ternary_switchstatement;
 
 public class C11_SwitchSorusu2 {
     public static void main(String[] args) {
