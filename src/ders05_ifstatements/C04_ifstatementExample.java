@@ -1,4 +1,4 @@
-package ders5_ifstatements;
+package ders05_ifstatements;
 
 import java.util.Scanner;
 

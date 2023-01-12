@@ -1,4 +1,4 @@
-package ders5_ifstatements;
+package ders05_ifstatements;
 
 public class C03_ifStatements {
     public static void main(String[] args) {
