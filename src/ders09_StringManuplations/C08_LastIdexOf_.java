@@ -1,4 +1,4 @@
-package ders9_StringManuplations;
+package ders09_StringManuplations;
 
 public class C08_LastIdexOf_ {
     public static void main(String[] args) {

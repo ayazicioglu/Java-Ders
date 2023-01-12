@@ -1,4 +1,4 @@
-package ders9_StringManuplations;
+package ders09_StringManuplations;
 
 public class C09_lastindexOf_hocanin_cozum {
     public static void main(String[] args) {

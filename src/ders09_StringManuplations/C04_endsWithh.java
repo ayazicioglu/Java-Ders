@@ -1,4 +1,4 @@
-package ders9_StringManuplations;
+package ders09_StringManuplations;
 
 import java.util.Scanner;
 
