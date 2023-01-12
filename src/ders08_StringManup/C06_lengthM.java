@@ -1,4 +1,4 @@
-package ders8_StringManup;
+package ders08_StringManup;
 
 import java.util.Random;
 

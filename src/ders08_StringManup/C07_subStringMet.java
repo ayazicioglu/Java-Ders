@@ -1,4 +1,4 @@
-package ders8_StringManup;
+package ders08_StringManup;
 
 public class C07_subStringMet {
     public static void main(String[] args) {

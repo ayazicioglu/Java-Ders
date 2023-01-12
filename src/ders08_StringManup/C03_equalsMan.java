@@ -1,4 +1,4 @@
-package ders8_StringManup;
+package ders08_StringManup;
 
 public class C03_equalsMan {
     public static void main(String[] args) {

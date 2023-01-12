@@ -1,4 +1,4 @@
-package ders8_StringManup;
+package ders08_StringManup;
 
 public class C05_charAt0 {
     public static void main(String[] args) {
