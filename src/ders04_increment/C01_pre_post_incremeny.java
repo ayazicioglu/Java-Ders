@@ -1,4 +1,4 @@
-package ders4_increment;
+package ders04_increment;
 
 public class C01_pre_post_incremeny {
     public static void main(String[] args) {

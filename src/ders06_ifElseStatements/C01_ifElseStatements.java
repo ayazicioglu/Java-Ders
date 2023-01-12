@@ -1,4 +1,4 @@
-package ders6_ifElseStatements;
+package ders06_ifElseStatements;
 
 import java.util.Scanner;
 
